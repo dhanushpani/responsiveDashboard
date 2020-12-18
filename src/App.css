@@ -1,12 +1,35 @@
 .rightbar{
   height: 640px;
 }
-
+.sidebar1{
+  margin-top: 90px;
+  width: 18%;
+}
 .post{
  display: flex;
  justify-content: center;
  padding-top: 6%;
 }
-@media screen and (min-width: 0px) and (max-width: 900px) {
+.bottombar{
+  display: block;
+}
+@media screen and (min-width: 0px) and (max-width: 959px) {
   .rightbar{ display: none; }   /* hide it elsewhere */
+}
+@media screen and (min-width: 0px) and (max-width: 955px) {
+  .appbar{ 
+    display: none;
+    overflow-y: hidden;
+   }   /* hide it elsewhere */
+}
+@media screen and (min-width: 0px) and (max-width: 955px) {
+  .bottombar{ 
+    display: block;
+  }   /* hide it elsewhere */
+}
+@media screen and (min-width: 956px) and (max-width: 2000px) {
+  .bottombar{ display: none; }   /* hide it elsewhere */
+}
+@media screen and (min-width: 0px) and (max-width: 955px) {
+  .sidebar1{ display: none; }   /* hide it elsewhere */
 }

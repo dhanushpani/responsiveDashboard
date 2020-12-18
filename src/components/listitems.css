@@ -1,3 +1,13 @@
 .listitems{
     color: rgba(29,161,242,1.00);
+    
+}
+.sidebar{
+    display: block
+}
+@media screen and (min-width: 0px) and (max-width: 950px) {
+  .sidebar{ display: none; }   /* hide it elsewhere */
+}
+a{
+  text-decoration: none;
 }
